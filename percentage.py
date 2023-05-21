@@ -13,6 +13,5 @@ if __name__ == '__main__':
     marks = student_marks[query_name] # query name from the user
 
     # For 2 decimal we use format(value, '.nf') n => upto how much decimal points
-    # print(format(sum(marks) / 3, '.2f'))
+    print(format(sum(marks) / 3, '.2f'))
 
-    print(format(sum(student_marks[query_name] / 3)), '.2f')
