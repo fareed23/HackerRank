@@ -7,7 +7,7 @@ for i in range(N):
     elif cmd[0] == 'print':
         print(lst)
     elif cmd[0] == 'remove':
-        lst.remove()
+        lst.remove(int(cmd[1]))
     elif cmd[0] == 'append':
         lst.append(int(cmd[1]))
     elif cmd[0] == 'sort':
