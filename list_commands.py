@@ -11,7 +11,7 @@ for i in range(N):
     elif cmd[0] == 'append':
         lst.append(int(cmd[1]))
     elif cmd[0] == 'sort':
-        list.sort()
+        lst.sort()
     elif cmd[0] == 'pop':
         lst.pop()
     elif cmd[0] == 'reverse':
