@@ -11,7 +11,6 @@ def print_full_name(first, last):
     # Write your code here
     name = "Hello {} {}! You just delved into Python.".format(first, last)
     print(name)
-
 if __name__ == '__main__':
     first_name = input()
     last_name = input()
