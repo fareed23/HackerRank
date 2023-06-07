@@ -1,6 +1,8 @@
 if __name__ == '__main__':
     s = input()
 
+#The any() function returns True if any item in an iterable are true, else False
+
 # Check for alphanumeric characters
 print(any(c.isalnum() for c in s))
 
