@@ -1,5 +1,3 @@
-from decimal import *
-
 
 def print_formatted(number):
     pad = number.bit_length()
