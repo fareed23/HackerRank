@@ -1,7 +1,7 @@
 import string
 def rangoli_pattern(n):
     # your code goes here
-    L = []
+    L = [] # list 
     alpha = string.ascii_lowercase
     for i in range(n):
         s = "-".join(alpha[i:n])
